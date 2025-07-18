@@ -143,6 +143,9 @@ main > section{
   font-size: 4rem;
   font-weight: 700;
 }
+.architect-img img{
+  width: 100%;
+}
 /* some fact related style */
 .fact{
   margin-left: 73px;
@@ -221,6 +224,12 @@ main > section{
   
 }
 
+/* negetive margine */
+#experiment-badge{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 
 /* responsive media query */
 @media screen and (max-width:576px){
@@ -237,12 +246,18 @@ main > section{
 
 }
 }
+
+
 /* medium size device */
 @media screen and(min-width: 576px) and (max-width: 992px){
-  .team{
+  .team ,.feature3{
     flex-direction: column;
   }
   .feature{
     margin: 50px auto;
   }
+  #experiment-badge{
+  margin-top: 20px;
+  margin-left: 20px;
+}
 }
